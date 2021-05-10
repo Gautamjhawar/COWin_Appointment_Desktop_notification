@@ -20,7 +20,7 @@ def GetAppoint():
         return {0}
     else:
         comlist=[]
-        num=581  #141-150 Delhi
+        num=148  #141-150 Delhi
         date=['10-05-2021','18-05-2021','24-05-2021','1-06-2021']
         for d in range(len(date)):
             url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id={}&date={}'.format(num,date[d])
